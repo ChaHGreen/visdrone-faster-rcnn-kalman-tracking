@@ -1,7 +1,7 @@
 - Codes are in `main.ipython`
 - Sample Results (Click the image to watch in youtube)
 
-[![YouTube Video](https://img.youtube.com/vi/HR3QH3iTXAU/0.jpg)](https://youtu.be/HR3QH3iTXAU)
+	[![YouTube Video](https://img.youtube.com/vi/HR3QH3iTXAU/0.jpg)](https://youtu.be/HR3QH3iTXAU)
 
 0: Docker Environment setup
 --
