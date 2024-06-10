@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.pytorch
+    container_name: Drone_follow_me
+    # environment:{}
+    volumes:
+      - E:\NYU CS\AI\CSGY6613-Assignment\Drone_follow_me:/workspaces/artificial_intelligence/Drone_follow_me
+    ports:
+      - "8888:8888"    
+    networks:
+      - app-network
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+    ipc: host
+    ulimits:
+      memlock: -1
+      stack: 67108864
+    command: tail -f /dev/null
+
+networks:
+  app-network:
+    driver: bridge
