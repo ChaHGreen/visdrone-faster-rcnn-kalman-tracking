@@ -1,6 +1,6 @@
 - Codes are in `main.ipython`
 - Sample Results
-[![YouTube Video](https://youtu.be/HR3QH3iTXAU/0.jpg)](https://youtu.be/HR3QH3iTXAU)
+[![YouTube Video](https://img.youtube.com/vi/HR3QH3iTXAU/0.jpg)](https://youtu.be/HR3QH3iTXAU)
 
 0: Docker Environment setup
 --
